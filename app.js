@@ -11,7 +11,7 @@ let divModoS = document.getElementsByClassName("modo_s")[0];
 btnNo.addEventListener('mouseenter', function(e) {moverPosicionRandom(e.target)});
 
 btnSi.addEventListener('click', function(e) {
-alert('Vamos a hacer nuestra casita en Minecraft (～￣▽￣)');
+alert('Vamos a hacer nuestra casita en Minecraft UwU');
 divModoS.style.display = 'block';
 const cancion = new Audio('img\\img_modo_hot.mp3');
 cancion.play();
