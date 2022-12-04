@@ -16,3 +16,19 @@ divModoS.style.display = 'block';
 const cancion = new Audio('img\\img_modo_hot.mp3');
 cancion.play();
 });
+
+divModoS.addEventListener('click', function(e){
+   // divModoS.innerHTML = "<img src='img\\perro.jpg' width='300'>";
+   const img = document.createElement("img"); 
+   img.src = "img\\perro.jpg"
+   console.log(img)
+   divModoS.appendChild(img);
+});
+
+botones = document.getElementsByTagName("button");
+console.log(botones[0]);
+
+window.addEventListener('beforeunload', (event) => {
+    event.preventDefault();
+    event.returnValue = "";
+    });
